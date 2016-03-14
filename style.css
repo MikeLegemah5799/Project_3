@@ -1,10 +1,10 @@
 *{
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 body{
     margin: 0;
-    
+    color: #4A4A4A
 }
 .container{
     width: 90%;
