@@ -18,7 +18,7 @@ h1{
     color: #FFF;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 20px;
 }
 header{
@@ -35,13 +35,48 @@ h2{
     margin-top: 28px;
 }
 
+h3{
+    color: #2D3945;
+    margin-top: 30px;
+}
+.silver-text{
+    text-align: center;
+    color: #C4C8CB;
+    font-size: 14px;
+    margin-bottom: 36px;
+}
+
+.thick-line{
+    border: 2px solid #2D3945;
+    margin: 0;
+}
+
+.thin-line{
+    border: 1px solid #2D3945;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
 /**********************************************Media Queries**************************************************/
 
 /*Desktop*/
 
 @media (min-width: 1024px){
+    .container{
+        width: 600px;
+    }
+    h1{
+        padding-top: 23px;
+    }
+    
     h2{
-        margin-top: 68px;
+        margin-top: 65px;
         font-size: 24px;
+        margin-bottom: 20px;
+    }
+    h3{
+        margin-top: 50px;
+    }
+    .silver-text{
+        margin-top: 0;
     }
 }/*end of desktop*/
