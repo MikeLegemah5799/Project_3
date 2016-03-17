@@ -78,7 +78,7 @@ legend{
 label{
     font-size: 14px;
     color: #2D3945;
-    display: block
+    display: block;
 }
 
 input, select{
@@ -153,13 +153,12 @@ input[type=submit]{
    .field-1 label{
         width: 25%;
         float: left;
+        margin-top: 30px;
     }
-    input{
-        margin-left: 50px;
-        width: 78%;
+    input, select{
+        margin-left: 10px;
+        width: 73%;
     }
     
-    select{
-        
-    }
+   
 }/*end of desktop*/
