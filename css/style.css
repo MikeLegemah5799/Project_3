@@ -63,6 +63,7 @@ form{
 fieldset{
     margin-top: 30px;
     border: none;
+    padding: 0;
 }
 
 legend{
@@ -149,8 +150,16 @@ input[type=submit]{
     .silver-text{
         margin-top: 0;
     }
+   .field-1 label{
+        width: 25%;
+        float: left;
+    }
     input{
         margin-left: 50px;
         width: 78%;
+    }
+    
+    select{
+        
     }
 }/*end of desktop*/
