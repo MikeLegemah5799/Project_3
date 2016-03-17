@@ -102,8 +102,11 @@ input, select{
 
 input:focus, textarea:focus, select:focus{
     outline: 0;
-    outline: 2px solid #46698b;
+    border: 2px solid #46698b;
     border-radius: 4px;
+}
+input[type=checkbox]:focus{
+    outline: 1px solid #46698b;
 }
 select{
     color: #ced1d4;
@@ -135,7 +138,7 @@ select{
 input[type=checkbox], input[type=radio]{
     height: 16px;
     width: 16px;
-    margin: 0 4px 8px 0;
+    margin: 0 4px 16px 0;
 }
 input[type=checkbox] + label{
     font-size: 14px;
@@ -166,6 +169,12 @@ input[type=submit]{
     font-size: 18px;
 }
 
+.select{
+        display: block;
+        margin-bottom: 16px;
+        line-height: 1.7em;
+    }
+
 /**********************************************Media Queries**************************************************/
 
 /*Desktop*/
@@ -192,10 +201,7 @@ input[type=submit]{
     .field-1{
         margin-bottom: 48px;
     }
-    .select{
-        display: block;
-        margin-bottom: 16px;
-    }
+    
     .format{
         margin-top: 30px;
     }
