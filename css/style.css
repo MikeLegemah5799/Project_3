@@ -81,7 +81,7 @@ legend{
 label{
     font-size: 14px;
     color: #2D3945;
-    display: block;
+    
 }
 
 input, select{
@@ -101,8 +101,9 @@ input, select{
 input[type=checkbox], input[type=radio]{
     height: 16px;
     width: 16px;
+    margin: 0 4px 8px 0;
 }
-input[type=checkbox] + span{
+input[type=checkbox] + label{
     font-size: 14px;
 }
 
@@ -155,6 +156,13 @@ input[type=submit]{
     }
     .field-1{
         margin-bottom: 48px;
+    }
+    .select{
+        display: block;
+        margin-bottom: 16px;
+    }
+    .format{
+        margin-top: 30px;
     }
     .field-1 label{
         width: 25%;
