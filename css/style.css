@@ -1,10 +1,13 @@
-*{
-    font-family: 'Merriweather', serif;
-    box-sizing: border-box;
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body{
     margin: 0;
-    
+    font-family: 'Merriweather', serif;
 }
 .container{
     width: 90%;
@@ -150,7 +153,10 @@ input[type=submit]{
     .silver-text{
         margin-top: 0;
     }
-   .field-1 label{
+    .field-1{
+        margin-bottom: 48px;
+    }
+    .field-1 label{
         width: 25%;
         float: left;
         margin-top: 30px;
