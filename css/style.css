@@ -173,6 +173,8 @@ input[type=submit]{
         display: block;
         margin-bottom: 16px;
         line-height: 1.7em;
+        color: #2D3945;
+        font-size: 14px;
     }
 
 /**********************************************Media Queries**************************************************/

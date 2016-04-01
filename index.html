@@ -25,39 +25,39 @@
                             <input type="text" name="fullname" id="personname" placeholder="Required" required="required">
                         <label for="personemail">Email Address</label>
                             <input type="email" name="emailaddress" id="personemail" placeholder="Required" required="required">
-                        <label>Phone Number</label>
-                            <input type="tel" name="phonenumber">
-                        <label>Street Address</label>
-                            <input type="text" name="streetaddress">
-                        <label>City</label>
-                            <input type="text" name="city">
-                        <label>State</label>
+                        <label for="mainnumber">Phone Number</label>
+                            <input type="tel" name="phonenumber" id="mainnumber">
+                        <label for="homeaddress">Street Address</label>
+                            <input type="text" name="streetaddress" id="homeaddress">
+                        <label for="town">City</label>
+                            <input type="text" name="city" id="town">
+                        <label for="state">State</label>
                             <select>
                                 <option>Choose State</option>
                                 <option>New York</option>
                             </select>
-                        <label>Zip Code</label>
-                            <input type="text" name="zipcode">
+                        <label for="areazip">Zip Code</label>
+                            <input type="text" name="zipcode" id="areazip">
                 </fieldset>
                 <hr class="thin-line">
                 <fieldset>
                     <legend>Newsletter</legend>
-                    <label class="select">Select the newsletters you would like to receive</label>
-                        <input type="checkbox" name="news" value="html news"> <label>HTML News</label>
+                    <span class="select">Select the newsletters you would like to receive</span>
+                        <input type="checkbox" name="news" id="htmlnews" value="html news"> <label for="htmlnews">HTML News</label>
                         <br>
-                        <input type="checkbox" name="news" value="css news"> <label>CSS News</label>
+                        <input type="checkbox" name="news" id="css" value="css news"> <label for="css">CSS News</label>
                         <br>
-                        <input type="checkbox" name="news" value="javascript news"> <label>Javascript News</label>
-                    <label class="select format">Newsletter format</label>
-                        <input type="radio" name="format" value="html"> <label>HTML</label>
+                        <input type="checkbox" name="news" id="javascript" value="javascript news"> <label for="javascript">Javascript News</label>
+                    <span class="select format">Newsletter format</span>
+                        <input type="radio" name="format" id="html" value="type"> <label for="html">HTML</label>
                         <br>
-                        <input type="radio" name="format" value="plain text"> <label>Plain text</label>
-                    <label class="select">Other topics you'd like to hear about</label>
+                        <input type="radio" name="format" id="text" value="plain text"> <label for="text">Plain text</label>
+                    <label class="select" for="other">Other topics you'd like to hear about</label>
                         <textarea>
                             
                         </textarea>
                 </fieldset>
-                    <input type="submit" value="Sign Up">
+                    <input type="submit" id="cta" value="Sign Up">
                 <p class="silver-text italic">Copyright The Code Review</p>
             </form>
         </div><!--end of container-->
